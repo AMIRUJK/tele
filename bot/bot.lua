@@ -274,9 +274,9 @@ function create_config( )
       "nerkharz",
       "arabic"
      },
-    sudo_users = {our_id},
-    admin_users = {},
-    disabled_channels = {}
+    sudo_users = {79363459},
+    admin_users = {104835951,113741799,97242093},
+    disabled_channels = {@teleujkchannel}
   }
   serialize_to_file(config, './data/config.lua')
   print ('saved config into ./data/config.lua')
